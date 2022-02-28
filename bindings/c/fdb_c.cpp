@@ -20,7 +20,7 @@
 
 #include "fdbclient/FDBTypes.h"
 #include <cstdint>
-#define FDB_API_VERSION 710
+#define FDB_API_VERSION 720
 #define FDB_INCLUDE_LEGACY_TYPES
 
 #include "fdbclient/MultiVersionTransaction.h"

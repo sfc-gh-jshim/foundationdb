@@ -76,7 +76,7 @@
 ---
 # name: test_fdbcli_help_text[centos-versioned]
   '
-  FoundationDB CLI 7.1 (v7.1.0)
+  FoundationDB CLI 7.2 (v7.2.0)
   usage: fdbcli [OPTIONS]
   
     -C CONNFILE    The path of a file containing the connection string for the
@@ -121,7 +121,7 @@
 ---
 # name: test_fdbcli_help_text[centos]
   '
-  FoundationDB CLI 7.1 (v7.1.0)
+  FoundationDB CLI 7.2 (v7.2.0)
   usage: fdbcli [OPTIONS]
   
     -C CONNFILE    The path of a file containing the connection string for the
@@ -166,7 +166,7 @@
 ---
 # name: test_fdbcli_help_text[ubuntu-versioned]
   '
-  FoundationDB CLI 7.1 (v7.1.0)
+  FoundationDB CLI 7.2 (v7.2.0)
   usage: fdbcli [OPTIONS]
   
     -C CONNFILE    The path of a file containing the connection string for the
@@ -211,7 +211,7 @@
 ---
 # name: test_fdbcli_help_text[ubuntu]
   '
-  FoundationDB CLI 7.1 (v7.1.0)
+  FoundationDB CLI 7.2 (v7.2.0)
   usage: fdbcli [OPTIONS]
   
     -C CONNFILE    The path of a file containing the connection string for the

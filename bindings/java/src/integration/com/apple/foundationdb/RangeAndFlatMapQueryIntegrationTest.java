@@ -41,7 +41,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith(RequiresDatabase.class)
 class RangeAndFlatMapQueryIntegrationTest {
-	private static final FDB fdb = FDB.selectAPIVersion(710);
+	private static final FDB fdb = FDB.selectAPIVersion(720);
 	public String databaseArg = null;
 	private Database openFDB() { return fdb.open(databaseArg); }
 
@@ -99,7 +99,7 @@ class RangeAndFlatMapQueryIntegrationTest {
 	boolean validate = false;
 	@Test
 	void comparePerformance() {
-		FDB fdb = FDB.selectAPIVersion(710);
+		FDB fdb = FDB.selectAPIVersion(720);
 		try (Database db = openFDB()) {
 			insertRecordsWithIndexes(numRecords, db);
 			instrument(rangeQueryAndGet, "rangeQueryAndGet", db);
